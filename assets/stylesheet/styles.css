@@ -1,0 +1,59 @@
+/* Import Karla fonts */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    /* labels font size */
+    --fs-label: 16px;
+
+    /* Width && height */
+    --width: 100vw;
+    --height: 100vh;
+
+
+}
+
+
+
+/* General Styles */
+
+.karla {
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .karla-italic {
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .round-border {
+    border-radius: 25px;
+    outline: 1px solid;
+  }
+
+
+/* Small screens media */
+
+  @media screen and (max-width: 375px){
+
+  }
+
+
+
+/* Medium and Large screens media */
+  @media screen and (min-width: 376px) and (max-width: 1440px) {
+
+  }
