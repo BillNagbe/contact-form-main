@@ -9,6 +9,19 @@
     --width: 100vw;
     --height: 100vh;
 
+    /* Weight */
+
+    --400: 400;
+    --700: 700;
+
+    /* Colors */
+
+    --lite-green: hsl(148, 38%, 91%);
+    --med-green: hsl(169, 82%, 27%);
+    --red: hsl(0, 66%, 54%);
+    --white: hsl(0, 0%, 100%);
+    --med-grey: hsl(186, 15%, 59%);
+    --drk-grey: hsl(187, 24%, 22%);
 
 }
 
