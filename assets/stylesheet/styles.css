@@ -54,17 +54,62 @@
 
   .round-border {
     border-radius: 25px;
-    outline: 1px solid;
   }
 
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
 
 
+  h1 {
+    
+  }
+
+  body {
+    width: var(--width);
+    min-height: var(--height);
+    background-color: var(--lite-green);
+  }
+
 /* Small screens media */
 
   @media screen and (max-width: 375px){
 
+    label > input {
+        font-size: var(--fs-label);
+    }
+
+    label {
+        clear: both;
+        float: left;
+    }
+
+    .main-outter-container {
+        background-color: var(--white);
+        height: calc(var(--height) - 10vh);
+        margin: 5vh auto;
+        width: calc(var(--width) - 20vw);
+        gap: 2rem;
+    }
+
+    .header-container {
+        outline: 1px solid;
+        height: fit-content;
+        text-align: center;
+        width: 50%;
+    }
+
+    .header-container h1 {
+        font-size: 1.5rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        outline: 1px solid;
+        height: 100%;
+        align-items: center;
+    }
   }
 
 
