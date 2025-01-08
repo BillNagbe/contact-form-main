@@ -13,7 +13,7 @@
     <header class="header-container">
       <h1>Contact Us</h1>
     </header>
-    <form action="/assets/stylesheet/js/main.js" method="get" class="flex-column-container">
+    <form action="/assets/stylesheet/js/main.js" method="get" class="flex-column-container" id="form-1">
       <!-- First Name -->
       <label for="first-name"> First Name *
         <input type="text" name="name" id="first-name" required>
@@ -26,32 +26,36 @@
       <label for="email"> First Name *
         <input type="email" name="email" id="email" required>
       </label>
+
+
+      <!-- Query Type -->
+      <label for="query-type"> Query Type *
+        <input type="checkbox" name="query-type" id="gen-enq"><label for="gen-enq">General Enquiry</label>
+        <input type="checkbox" name="query-type" id="support"><label for="support">Support Request</label>
+      </label>
+
+      <!-- Message box -->
+       <label for="message-box">
+        <textarea name="message-box" id="message-box"></textarea>
+       </label>
+
+       <!-- Consent radio -->
+       <label for="consent">
+        <input type="radio" name="consent" id="consent" required>
+        I consent to being contacted by the team
+        To submit this form, please consent to being contacted
+      </label>
+
+      <!-- Sumbit btn -->
+
+      <button type="submit" id="submit" form="form-1" value="Submit">Submit</button>
     </form>
   </main>
-
-  Email Address
-  Please enter a valid email address
-  This field is required
-
-  Query Type
-  General Enquiry
-  Support Request
-  Please select a query type
-
-  Message
-  This field is required
-
-  I consent to being contacted by the team
-  To submit this form, please consent to being contacted
-
-  Submit
-
-  Message Sent!
-  Thanks for completing the form. We'll be in touch soon!
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="/assets/stylesheet/js/main.js"></script>
 </body>
 </html>
